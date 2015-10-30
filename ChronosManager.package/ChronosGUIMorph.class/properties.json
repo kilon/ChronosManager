@@ -1,0 +1,17 @@
+{
+	"category" : "ChronosManager",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"time",
+		"timeStr",
+		"eyeDisplay",
+		"secondsTimer" ],
+	"name" : "ChronosGUIMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

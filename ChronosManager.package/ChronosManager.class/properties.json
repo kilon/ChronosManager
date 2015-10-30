@@ -1,0 +1,17 @@
+{
+	"category" : "ChronosManager",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"watch",
+		"label",
+		"process",
+		"window" ],
+	"name" : "ChronosManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
