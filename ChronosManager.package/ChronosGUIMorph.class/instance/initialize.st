@@ -7,10 +7,15 @@ initialize
 	timeStr contents: (time hour asString ), ' : ', (time minute asString), ' : ',(time second asString).
 DateAndTime current second.
       secondsTimer := ImageMorph withForm: ChronosManagerIcons new secondsTimer0000Icon.
+      closeButton := ChronosGUIButtonMorph standard: (ChronosManagerButtonsPNG new closeButtonIcon) glow: (ChronosManagerButtonsPNG new closeButtonGlowIcon) .
+
       self addMorph: eyeDisplay.
       self addMorph: timeStr.
       self addMorph: secondsTimer.
-      timeStr position: 120@145.
+      self addMorph: closeButton .
+      closeButton position: -2@100.
+      timeStr position: 95@135.
+		timeStr font: (FreeTypeFont fromFile: '/Library/Fonts/Arial.ttf' pointSize:16 index:0). 
       self color: ((self color) alpha: 0).
       self startStepping .
 	

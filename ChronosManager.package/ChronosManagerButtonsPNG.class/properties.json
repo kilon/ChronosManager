@@ -3,16 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Current" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"time",
-		"timeStr",
-		"eyeDisplay",
-		"secondsTimer",
-		"closeButton" ],
-	"name" : "ChronosGUIMorph",
+		"icons" ],
+	"name" : "ChronosManagerButtonsPNG",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }

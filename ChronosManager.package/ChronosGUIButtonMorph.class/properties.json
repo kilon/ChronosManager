@@ -6,13 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"time",
-		"timeStr",
-		"eyeDisplay",
-		"secondsTimer",
-		"closeButton" ],
-	"name" : "ChronosGUIMorph",
+		"glowForm",
+		"standardForm" ],
+	"name" : "ChronosGUIButtonMorph",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "ImageMorph",
 	"type" : "normal" }

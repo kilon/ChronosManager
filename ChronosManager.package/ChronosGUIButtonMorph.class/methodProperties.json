@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"standard:glow:" : "kilonAlios 10/31/2015 14:53" },
+	"instance" : {
+		"glowForm" : "kilonAlios 10/31/2015 14:57",
+		"glowForm:" : "kilonAlios 10/31/2015 14:38",
+		"handlesMouseDown:" : "kilonAlios 10/31/2015 13:54",
+		"handlesMouseEnter:" : "kilonAlios 10/31/2015 14:32",
+		"handlesMouseLeave:" : "kilonAlios 10/31/2015 14:33",
+		"handlesMouseOver:" : "kilonAlios 10/31/2015 15:04",
+		"initialize" : "kilonAlios 10/31/2015 13:53",
+		"mouseDown:" : "kilonAlios 10/31/2015 13:56",
+		"mouseEnter:" : "kilonAlios 10/31/2015 15:00",
+		"mouseLeave:" : "kilonAlios 10/31/2015 15:00",
+		"standardForm" : "kilonAlios 10/31/2015 14:57",
+		"standardForm:" : "kilonAlios 10/31/2015 14:38" } }
