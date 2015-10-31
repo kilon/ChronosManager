@@ -18,7 +18,7 @@ DateAndTime current second.
 
       closeButton position: -2@100.
       stopwatch position: -4@135.
-      timeStr position: 95@135.
+      timeStr position: 110@135.
 		timeStr font: (FreeTypeFont fromFile: '/Library/Fonts/Arial.ttf' pointSize:16 index:0). 
       self color: ((self color) alpha: 0).
       self startStepping .

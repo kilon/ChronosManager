@@ -1,6 +1,6 @@
 as yet unclassified
 step
-	|iconMethod|
+	|iconMethod hour minute second|
 	super step.
 	time := DateAndTime current.
 	
@@ -8,4 +8,7 @@ step
 	time seconds > 9 ifTrue: [ iconMethod := ('secondsTimer00',time seconds asString,'Icon') asSymbol ].
 	secondsTimer form: ((ChronosManagerIcons new ) perform: iconMethod).
 	
-	timeStr contents: (time hour asString ), ' : ', (time minute asString), ' : ',(time second asString).
+	time hour < 10 ifTrue: [ hour := '0',time hour asString ] ifFalse: [ hour := time hour asString ].
+	time minute < 10 ifTrue: [ minute := '0',time minute asString ] ifFalse: [ minute := time minute asString ].
+	time second < 10 ifTrue: [ second := '0',time second asString ] ifFalse: [ second := time second asString ].
+	timeStr contents: hour, ':', minute, ':', second .
