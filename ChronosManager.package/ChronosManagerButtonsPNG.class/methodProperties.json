@@ -1,12 +1,16 @@
 {
 	"class" : {
-		"current" : "kilonAlios 10/31/2015 15:06" },
+		"current" : "kilonAlios 10/31/2015 20:54" },
 	"instance" : {
-		"closeButtonGlowIcon" : "kilonAlios 10/31/2015 15:06",
-		"closeButtonGlowIconContents" : "kilonAlios 10/31/2015 15:06",
-		"closeButtonIcon" : "kilonAlios 10/31/2015 15:06",
-		"closeButtonIconContents" : "kilonAlios 10/31/2015 15:06",
-		"gtInspectorIconsIn:" : "kilonAlios 10/31/2015 15:06",
-		"iconSelectors" : "kilonAlios 10/31/2015 15:06",
-		"initialize" : "kilonAlios 10/31/2015 15:06",
-		"initializeIcons" : "kilonAlios 10/31/2015 15:06" } }
+		"closeButtonGlowIcon" : "kilonAlios 10/31/2015 20:55",
+		"closeButtonGlowIconContents" : "kilonAlios 10/31/2015 20:55",
+		"closeButtonIcon" : "kilonAlios 10/31/2015 20:55",
+		"closeButtonIconContents" : "kilonAlios 10/31/2015 20:55",
+		"gtInspectorIconsIn:" : "kilonAlios 10/31/2015 20:54",
+		"iconSelectors" : "kilonAlios 10/31/2015 20:54",
+		"initialize" : "kilonAlios 10/31/2015 20:54",
+		"initializeIcons" : "kilonAlios 10/31/2015 20:54",
+		"stopwatchButtonGlowIcon" : "kilonAlios 10/31/2015 20:55",
+		"stopwatchButtonGlowIconContents" : "kilonAlios 10/31/2015 20:55",
+		"stopwatchButtonIcon" : "kilonAlios 10/31/2015 20:55",
+		"stopwatchButtonIconContents" : "kilonAlios 10/31/2015 20:55" } }

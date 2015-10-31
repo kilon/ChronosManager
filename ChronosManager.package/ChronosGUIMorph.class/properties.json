@@ -10,7 +10,8 @@
 		"timeStr",
 		"eyeDisplay",
 		"secondsTimer",
-		"closeButton" ],
+		"closeButton",
+		"stopwatch" ],
 	"name" : "ChronosGUIMorph",
 	"pools" : [
 		 ],
