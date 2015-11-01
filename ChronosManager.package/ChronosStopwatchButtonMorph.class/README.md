@@ -1,0 +1,1 @@
+Chronos Stopwatch button that can be toggles off and on to enable and disable stopwatch functionality

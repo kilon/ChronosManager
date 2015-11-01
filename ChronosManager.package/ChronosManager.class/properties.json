@@ -3,8 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
-	"commentStamp" : "",
+		"ChronosInstance" ],
+	"commentStamp" : "kilonAlios 11/1/2015 14:17",
 	"instvars" : [
 		"watch",
 		"label",

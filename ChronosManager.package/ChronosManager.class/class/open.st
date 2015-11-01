@@ -1,3 +1,5 @@
 as yet unclassified
 open
-ChronosGUIMorph new openInWorld
+ChronosInstance := ChronosGUIMorph new .
+ChronosInstance openInWorld.
+^ChronosInstance
