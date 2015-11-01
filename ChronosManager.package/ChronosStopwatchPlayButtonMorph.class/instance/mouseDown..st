@@ -1,3 +1,3 @@
 as yet unclassified
 mouseDown: evt
-	self owner delete
+		self owner isStopwatchEnabled ifTrue:[ ]

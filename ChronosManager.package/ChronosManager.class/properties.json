@@ -9,7 +9,8 @@
 		"watch",
 		"label",
 		"process",
-		"window" ],
+		"window",
+		"chronosGUIMorph" ],
 	"name" : "ChronosManager",
 	"pools" : [
 		 ],

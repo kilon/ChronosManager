@@ -14,7 +14,8 @@
 		"stopwatch",
 		"stopwatchButton",
 		"stopwatchPlayButton",
-		"isStopwatchEnabled" ],
+		"isStopwatchEnabled",
+		"stopwatchSecondaryPanel" ],
 	"name" : "ChronosGUIMorph",
 	"pools" : [
 		 ],
