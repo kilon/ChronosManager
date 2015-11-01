@@ -30,7 +30,7 @@ DateAndTime current second.
       timeStr position: 110@135.
 		stopwatchSecondaryPanel position: -72@83.
 
-		timeStr font: (FreeTypeFont fromFile: '/Library/Fonts/Arial.ttf' pointSize:16 index:0). 
+		timeStr font:  (FreeTypeFont fromFile: '/Library/Fonts/Arial.ttf' pointSize:16 index:0). 
       self color: ((self color) alpha: 0).
       self startStepping .
 	
