@@ -1,16 +1,14 @@
 {
 	"class" : {
-		"standard:glow:" : "kilonAlios 10/31/2015 20:51" },
+		 },
 	"instance" : {
-		"glowForm" : "kilonAlios 10/31/2015 20:59",
-		"glowForm:" : "kilonAlios 10/31/2015 14:38",
 		"handlesMouseDown:" : "kilonAlios 10/31/2015 13:54",
 		"handlesMouseEnter:" : "kilonAlios 10/31/2015 14:32",
 		"handlesMouseLeave:" : "kilonAlios 10/31/2015 14:33",
 		"handlesMouseOver:" : "kilonAlios 10/31/2015 15:04",
-		"initialize" : "kilonAlios 10/31/2015 13:53",
+		"initialize" : "kilonAlios 11/1/2015 12:43",
 		"mouseDown:" : "kilonAlios 10/31/2015 13:56",
-		"mouseEnter:" : "kilonAlios 10/31/2015 15:00",
-		"mouseLeave:" : "kilonAlios 10/31/2015 15:00",
+		"mouseEnter:" : "kilonAlios 11/1/2015 12:41",
+		"mouseLeave:" : "kilonAlios 11/1/2015 12:41",
 		"standardForm" : "kilonAlios 10/31/2015 14:57",
 		"standardForm:" : "kilonAlios 10/31/2015 14:38" } }

@@ -7,8 +7,8 @@ initialize
 	timeStr contents: (time hour asString ), ' : ', (time minute asString), ' : ',(time second asString).
 DateAndTime current second.
       secondsTimer := ImageMorph withForm: ChronosManagerIcons new secondsTimer0000Icon.
-      closeButton := ChronosCloseButtonMorph standard: (ChronosManagerButtonsPNG new closeButtonIcon) glow: (ChronosManagerButtonsPNG new closeButtonGlowIcon) .
-      stopwatch := ChronosStopwatchButtonMorph standard: (ChronosManagerButtonsPNG new stopwatchButtonIcon ) glow: (ChronosManagerButtonsPNG new stopwatchButtonGlowIcon ).
+      closeButton := ChronosCloseButtonMorph new .
+      stopwatch := ChronosStopwatchButtonMorph new.
 
       self addMorph: eyeDisplay.
       self addMorph: timeStr.
