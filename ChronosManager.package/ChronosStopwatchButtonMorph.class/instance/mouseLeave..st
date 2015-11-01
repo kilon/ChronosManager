@@ -1,3 +1,3 @@
 as yet unclassified
 mouseLeave: evt
-	self form: ChronosManagerButtonsPNG new stopwatchButtonIcon 
+	self owner isStopwatchEnabled ifFalse:[ self form: ChronosManagerButtonsPNG new stopwatchButtonIcon ]

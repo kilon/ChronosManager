@@ -11,7 +11,10 @@
 		"eyeDisplay",
 		"secondsTimer",
 		"closeButton",
-		"stopwatch" ],
+		"stopwatch",
+		"stopwatchButton",
+		"stopwatchPlayButton",
+		"isStopwatchEnabled" ],
 	"name" : "ChronosGUIMorph",
 	"pools" : [
 		 ],

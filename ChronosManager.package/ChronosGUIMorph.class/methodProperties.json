@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "kilonAlios 11/1/2015 12:45",
-		"step" : "kilonAlios 10/31/2015 21:30" } }
+		"initialize" : "kilonAlios 11/1/2015 13:22",
+		"isStopwatchEnabled" : "kilonAlios 11/1/2015 13:22",
+		"step" : "kilonAlios 10/31/2015 21:30",
+		"stopwatchToggle" : "kilonAlios 11/1/2015 14:03" } }
