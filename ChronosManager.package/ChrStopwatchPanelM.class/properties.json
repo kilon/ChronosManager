@@ -12,7 +12,9 @@
 		"stopwatchButton",
 		"chronosTimer",
 		"timerLabel",
-		"stopwatchLabel" ],
+		"stopwatchLabel",
+		"isTimerEnabled",
+		"isStopwatchEnabled" ],
 	"name" : "ChrStopwatchPanelM",
 	"pools" : [
 		 ],
