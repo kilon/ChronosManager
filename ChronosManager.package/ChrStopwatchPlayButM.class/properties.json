@@ -1,0 +1,15 @@
+{
+	"category" : "ChronosManager",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kilonAlios 11/1/2015 14:18",
+	"instvars" : [
+		"glowForm",
+		"standardForm" ],
+	"name" : "ChrStopwatchPlayButM",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"type" : "normal" }

@@ -1,0 +1,20 @@
+{
+	"category" : "ChronosManager",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kilonAlios 11/2/2015 20:07",
+	"instvars" : [
+		"isButtonEnabled",
+		"timerLabel",
+		"chrFont",
+		"buttonLabel",
+		"action",
+		"standardForm",
+		"glowForm" ],
+	"name" : "ChrButtonM",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"type" : "normal" }

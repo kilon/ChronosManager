@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"handlesMouseDown:" : "kilonAlios 11/1/2015 12:55",
+		"handlesMouseEnter:" : "kilonAlios 11/1/2015 12:55",
+		"handlesMouseLeave:" : "kilonAlios 11/1/2015 12:55",
+		"handlesMouseOver:" : "kilonAlios 11/1/2015 12:55",
+		"initialize" : "kilonAlios 11/2/2015 19:20",
+		"mouseDown:" : "kilonAlios 11/1/2015 14:22",
+		"mouseEnter:" : "kilonAlios 11/2/2015 19:20",
+		"mouseLeave:" : "kilonAlios 11/2/2015 19:20" } }

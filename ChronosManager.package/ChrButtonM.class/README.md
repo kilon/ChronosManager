@@ -1,0 +1,1 @@
+This is a generic button morph with the ability to switch or not

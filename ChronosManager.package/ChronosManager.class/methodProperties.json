@@ -1,11 +1,13 @@
 {
 	"class" : {
 		"chronosInstance" : "kilonAlios 11/1/2015 14:15",
+		"defaultFont" : "kilonAlios 11/2/2015 18:22",
+		"exampleOpen" : "kilonAlios 11/2/2015 18:16",
 		"open" : "kilonAlios 11/1/2015 14:25" },
 	"instance" : {
 		"end" : "kilonAlios 10/26/2015 08:49",
 		"formatLabel:" : "kilonAlios 10/26/2015 08:50",
-		"initialize" : "kilonAlios 11/1/2015 14:26",
+		"initialize" : "kilonAlios 11/2/2015 19:19",
 		"pause" : "kilonAlios 10/26/2015 08:49",
 		"restart" : "kilonAlios 10/26/2015 08:49",
 		"resume" : "kilonAlios 10/26/2015 08:48" } }

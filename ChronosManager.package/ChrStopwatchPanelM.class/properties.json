@@ -1,0 +1,20 @@
+{
+	"category" : "ChronosManager",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"glowForm",
+		"standardForm",
+		"timerButton",
+		"stopwatchButton",
+		"chronosTimer",
+		"timerLabel",
+		"stopwatchLabel" ],
+	"name" : "ChrStopwatchPanelM",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"type" : "normal" }

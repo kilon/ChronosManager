@@ -1,0 +1,15 @@
+{
+	"category" : "ChronosManager",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"glowForm",
+		"standardForm" ],
+	"name" : "ChrCloseButtonM",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"type" : "normal" }

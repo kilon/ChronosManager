@@ -1,0 +1,23 @@
+{
+	"category" : "ChronosManager",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kilonAlios 11/1/2015 14:16",
+	"instvars" : [
+		"time",
+		"timeStr",
+		"eyeDisplay",
+		"secondsTimer",
+		"closeButton",
+		"stopwatch",
+		"stopwatchButton",
+		"stopwatchPlayButton",
+		"isStopwatchEnabled",
+		"stopwatchSecondaryPanel" ],
+	"name" : "ChrGUIMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

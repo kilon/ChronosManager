@@ -1,0 +1,14 @@
+{
+	"category" : "ChronosManager",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Current" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"icons" ],
+	"name" : "ChStopwatchSettingsPNG",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
