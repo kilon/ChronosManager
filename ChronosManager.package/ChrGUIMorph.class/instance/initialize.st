@@ -30,7 +30,7 @@ DateAndTime current second.
       timeStr position: 100@135.
 		stopwatchSecondaryPanel position: 0@300.
 
-		timeStr font:  (FreeTypeFont fromFile: '/Users/kilon/Downloads/Cubellan_v_0_7/Cubellan.ttf'  pointSize:20 index:0). 
+		timeStr font:  (ChronosManager  defaultFontPointSize: 20). 
       self color: ((self color) alpha: 0).
       self startStepping .
 	

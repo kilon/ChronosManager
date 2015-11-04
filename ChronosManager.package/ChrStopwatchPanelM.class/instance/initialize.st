@@ -5,7 +5,7 @@ initialize
 	isTimerEnabled := true.
 	isStopwatchEnabled := false.
 	stopWatchLabel := StringMorph new.
-	stopWatchLabel font:  (FreeTypeFont fromFile: '/Users/kilon/Downloads/Cubellan_v_0_7/Cubellan.ttf'  pointSize:30 index:0).
+	stopWatchLabel font:  (ChronosManager  defaultFontPointSize: 30).
 	self addMorph: stopWatchLabel .
 	stopWatchLabel  position: 200@20.
 	stopWatchLabel contents: 'Timer'.
