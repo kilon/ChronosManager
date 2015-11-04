@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfChronosManager",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfChronosManager",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
