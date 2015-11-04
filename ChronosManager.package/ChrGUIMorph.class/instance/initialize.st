@@ -28,7 +28,7 @@ DateAndTime current second.
       stopwatchButton position: -4@135.
 		stopwatchPlayButton position: 0@170.
       timeStr position: 110@135.
-		stopwatchSecondaryPanel position: -72@83.
+		stopwatchSecondaryPanel position: 0@300.
 
 		timeStr font:  (FreeTypeFont fromFile: '/Library/Fonts/Arial.ttf' pointSize:16 index:0). 
       self color: ((self color) alpha: 0).
