@@ -1,4 +1,4 @@
 as yet unclassified
 enable
 isButtonEnabled  := true. 
-self form: (ChStopwatchSettingsPNG new longButtonGlowIcon).
+self form: (self glowForm) .

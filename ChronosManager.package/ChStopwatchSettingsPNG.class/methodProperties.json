@@ -1,16 +1,20 @@
 {
 	"class" : {
-		"current" : "kilonAlios 11/4/2015 13:45" },
+		"current" : "kilonAlios 11/4/2015 18:43" },
 	"instance" : {
-		"gtInspectorIconsIn:" : "kilonAlios 11/4/2015 13:45",
-		"iconSelectors" : "kilonAlios 11/4/2015 13:45",
-		"initialize" : "kilonAlios 11/4/2015 13:45",
-		"initializeIcons" : "kilonAlios 11/4/2015 13:45",
-		"longButtonGlowIcon" : "kilonAlios 11/4/2015 13:45",
-		"longButtonGlowIconContents" : "kilonAlios 11/4/2015 13:45",
-		"longButtonIcon" : "kilonAlios 11/4/2015 13:45",
-		"longButtonIconContents" : "kilonAlios 11/4/2015 13:45",
-		"stopwatchSecondaryPanel2Icon" : "kilonAlios 11/4/2015 13:45",
-		"stopwatchSecondaryPanel2IconContents" : "kilonAlios 11/4/2015 13:45",
-		"stopwatchSecondaryPanelIcon" : "kilonAlios 11/4/2015 13:45",
-		"stopwatchSecondaryPanelIconContents" : "kilonAlios 11/4/2015 13:45" } }
+		"gtInspectorIconsIn:" : "kilonAlios 11/4/2015 18:43",
+		"iconSelectors" : "kilonAlios 11/4/2015 18:43",
+		"initialize" : "kilonAlios 11/4/2015 18:43",
+		"initializeIcons" : "kilonAlios 11/4/2015 18:43",
+		"longButtonGlowIcon" : "kilonAlios 11/4/2015 18:43",
+		"longButtonGlowIconContents" : "kilonAlios 11/4/2015 18:43",
+		"longButtonIcon" : "kilonAlios 11/4/2015 18:43",
+		"longButtonIconContents" : "kilonAlios 11/4/2015 18:43",
+		"stopwatchSecondaryPanel2Icon" : "kilonAlios 11/4/2015 18:43",
+		"stopwatchSecondaryPanel2IconContents" : "kilonAlios 11/4/2015 18:43",
+		"stopwatchSecondaryPanelIcon" : "kilonAlios 11/4/2015 18:43",
+		"stopwatchSecondaryPanelIconContents" : "kilonAlios 11/4/2015 18:43",
+		"timerButtonGlowIcon" : "kilonAlios 11/4/2015 18:43",
+		"timerButtonGlowIconContents" : "kilonAlios 11/4/2015 18:43",
+		"timerButtonIcon" : "kilonAlios 11/4/2015 18:43",
+		"timerButtonIconContents" : "kilonAlios 11/4/2015 18:43" } }

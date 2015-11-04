@@ -27,10 +27,10 @@ DateAndTime current second.
       closeButton position: -2@100.
       stopwatchButton position: -4@135.
 		stopwatchPlayButton position: 0@170.
-      timeStr position: 110@135.
+      timeStr position: 100@135.
 		stopwatchSecondaryPanel position: 0@300.
 
-		timeStr font:  (FreeTypeFont fromFile: '/Library/Fonts/Arial.ttf' pointSize:16 index:0). 
+		timeStr font:  (FreeTypeFont fromFile: '/Users/kilon/Downloads/Cubellan_v_0_7/Cubellan.ttf'  pointSize:20 index:0). 
       self color: ((self color) alpha: 0).
       self startStepping .
 	

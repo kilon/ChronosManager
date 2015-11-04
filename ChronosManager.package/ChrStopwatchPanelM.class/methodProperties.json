@@ -2,8 +2,10 @@
 	"class" : {
 		"generatePNGIcons" : "kilonAlios 11/2/2015 19:22" },
 	"instance" : {
-		"initialize" : "kilonAlios 11/4/2015 14:46",
+		"initialize" : "kilonAlios 11/4/2015 21:15",
 		"isStopwatchEnabled:" : "kilonAlios 11/2/2015 20:33",
 		"isTimerEnabled:" : "kilonAlios 11/2/2015 20:19",
-		"stopwatchToggle" : "kilonAlios 11/2/2015 21:05",
-		"timerToggle" : "kilonAlios 11/2/2015 21:05" } }
+		"prepareStopwatchButton" : "kilonAlios 11/4/2015 19:40",
+		"prepareTimerButton" : "kilonAlios 11/4/2015 19:40",
+		"stopwatchToggle" : "kilonAlios 11/4/2015 21:14",
+		"timerToggle" : "kilonAlios 11/4/2015 21:14" } }

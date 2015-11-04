@@ -14,7 +14,8 @@
 		"timerLabel",
 		"stopwatchLabel",
 		"isTimerEnabled",
-		"isStopwatchEnabled" ],
+		"isStopwatchEnabled",
+		"stopWatchLabel" ],
 	"name" : "ChrStopwatchPanelM",
 	"pools" : [
 		 ],
