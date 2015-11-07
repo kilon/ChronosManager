@@ -1,8 +1,8 @@
 as yet unclassified
 initialize
 super initialize .
-self glowForm:  ChStopwatchSettingsPNG  new longButtonGlowIcon .
-self standardForm: ChStopwatchSettingsPNG  new longButtonIcon .
+self glowForm:  ChrStopwatchSettingsPNG  new longButtonGlowIcon .
+self standardForm: ChrStopwatchSettingsPNG  new longButtonIcon .
 self  enable.
 
 isButtonEnabled := true.

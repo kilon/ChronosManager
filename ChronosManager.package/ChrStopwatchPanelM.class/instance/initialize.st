@@ -10,7 +10,7 @@ initialize
 	stopWatchLabel  position: 200@20.
 	stopWatchLabel contents: 'Timer'.
 	stopWatchLabel color: Color cyan.
-	self form: ChStopwatchSettingsPNG new stopwatchSecondaryPanel2Icon  .
+	self form: ChrStopwatchSettingsPNG new stopwatchSecondaryPanel2Icon  .
 	self prepareStopwatchButton.
 	 self prepareTimerButton.
 	

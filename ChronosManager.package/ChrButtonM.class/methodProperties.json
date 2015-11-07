@@ -2,7 +2,7 @@
 	"class" : {
 		"createWithAction:" : "kilonAlios 11/4/2015 18:46",
 		"createWithLabel:action:" : "kilonAlios 11/2/2015 20:20",
-		"generatePNGIcons" : "kilonAlios 11/2/2015 19:22" },
+		"generatePNGIcons" : "kilonAlios 11/6/2015 14:46" },
 	"instance" : {
 		"action:" : "kilonAlios 11/2/2015 20:01",
 		"addLabel:" : "kilonAlios 11/4/2015 15:07",
@@ -13,7 +13,7 @@
 		"glowForm:" : "kilonAlios 11/4/2015 18:50",
 		"handlesMouseDown:" : "kilonAlios 11/1/2015 18:43",
 		"handlesMouseOver:" : "kilonAlios 11/1/2015 19:26",
-		"initialize" : "kilonAlios 11/4/2015 18:57",
+		"initialize" : "kilonAlios 11/6/2015 14:46",
 		"isEnabled" : "kilonAlios 11/2/2015 20:03",
 		"labelSize:" : "kilonAlios 11/2/2015 20:05",
 		"mouseDown:" : "kilonAlios 11/2/2015 20:48",
