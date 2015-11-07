@@ -15,7 +15,11 @@
 		"stopwatchLabel",
 		"isTimerEnabled",
 		"isStopwatchEnabled",
-		"stopWatchLabel" ],
+		"stopWatchLabel",
+		"timelimitLabel",
+		"hourslimitLabel",
+		"dailygoalLabel",
+		"timelimitInput" ],
 	"name" : "ChrStopwatchPanelM",
 	"pools" : [
 		 ],
