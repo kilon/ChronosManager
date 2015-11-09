@@ -14,6 +14,7 @@ initialize
 	timelimitLabel font: (ChronosManager defaultFontPointSize: 12).
 	self addMorph: timelimitLabel.
 	timelimitLabel position: 20@90.
+	timelimitLabel color: Color white.
 	
 	timelimitInput := TextMorph new.
 	self addMorph: timelimitInput.
@@ -25,9 +26,11 @@ initialize
 	hourslimitLabel font: (ChronosManager defaultFontPointSize: 12).
 	self addMorph: hourslimitLabel .
 	hourslimitLabel position: 20@150.
+	hourslimitLabel color: Color white.
 	
 	dailygoalLabel := StringMorph new.
 	dailygoalLabel contents: 'Daily goal:'.
 	dailygoalLabel font: (ChronosManager defaultFontPointSize: 12).
 	self addMorph: dailygoalLabel .
 	dailygoalLabel position: 20@200.
+	dailygoalLabel color: Color white.

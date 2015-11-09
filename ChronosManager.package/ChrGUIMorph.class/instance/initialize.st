@@ -4,6 +4,7 @@ initialize
 	eyeDisplay := ImageMorph withForm: ChrIcons  new GUIPanelIcon .
 	time := DateAndTime current.
 	timeStr := StringMorph new.
+	timeStr color: Color white.
 	timeStr contents: (time hour asString ), ' : ', (time minute asString), ' : ',(time second asString).
 DateAndTime current second.
 	isStopwatchEnabled := false.
