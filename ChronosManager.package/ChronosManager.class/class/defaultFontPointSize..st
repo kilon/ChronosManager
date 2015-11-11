@@ -5,5 +5,5 @@ wd := FileSystem disk workingDirectory .
 master := wd / 'github-cache/kilon/ChronosManager/master'.
 fontPath := (master children at: 1)/'fonts/Cubellan.ttf'.
 fontPath:=(fontPath asString  substrings:'@') at: 2.
-fontPath := fontPath withoutPrefix: ' '.
+fontPath := fontPath trimLeft.
 ^(FreeTypeFont fromFile: fontPath  pointSize:aSize index:0)
