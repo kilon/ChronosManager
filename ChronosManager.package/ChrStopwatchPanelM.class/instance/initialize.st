@@ -10,4 +10,5 @@ initialize
 	self prepareTimelimitLabel.
 	self prepareTimelimitInput.
 	self prepareBrakelimitLabel.
-	self prepareDailygoalLabel
+	self prepareBrakelimitInput.
+	self prepareDailygoalLabel.

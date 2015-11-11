@@ -17,10 +17,9 @@
 		"isStopwatchEnabled",
 		"stopWatchLabel",
 		"timelimitLabel",
-		"hourslimitLabel",
 		"dailygoalLabel",
-		"timelimitInput",
-		"brakelimitLabel" ],
+		"brakelimitLabel",
+		"brakelimitInput" ],
 	"name" : "ChrStopwatchPanelM",
 	"pools" : [
 		 ],
