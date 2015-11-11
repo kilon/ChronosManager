@@ -1,0 +1,14 @@
+{
+	"category" : "ChronosManager",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ChrTimeInputM",
+	"pools" : [
+		 ],
+	"super" : "TextMorph",
+	"type" : "normal" }
