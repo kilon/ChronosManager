@@ -3,7 +3,13 @@
 		"generatePNGs" : "kilonAlios 11/7/2015 15:13" },
 	"instance" : {
 		"initialize" : "kilonAlios 11/9/2015 21:57",
+		"isActive" : "kilonAlios 11/12/2015 16:37",
+		"isCollapsed" : "kilonAlios 11/12/2015 16:37",
 		"isStopwatchEnabled" : "kilonAlios 11/1/2015 13:22",
 		"step" : "kilonAlios 11/2/2015 19:20",
 		"stopwatchToggle" : "kilonAlios 11/2/2015 19:20",
-		"taskbarTask" : "kilonAlios 11/12/2015 13:30" } }
+		"taskbarButtonFor:" : "kilonAlios 11/12/2015 16:35",
+		"taskbarIcon" : "kilonAlios 11/12/2015 16:40",
+		"taskbarLabel" : "kilonAlios 11/12/2015 16:39",
+		"taskbarState" : "kilonAlios 11/12/2015 16:35",
+		"taskbarTask" : "kilonAlios 11/12/2015 16:39" } }

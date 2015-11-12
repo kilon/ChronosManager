@@ -6,4 +6,4 @@ taskbarTask
 		morph: self
 		state: self taskbarState
 		icon: self taskbarIcon
-		label: self taskbarLabel
+		label: self taskbarLabel 
