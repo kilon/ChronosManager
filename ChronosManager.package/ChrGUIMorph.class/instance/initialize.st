@@ -31,7 +31,7 @@ DateAndTime current second.
 		closeButton := ChrCloseButtonM create: (ChrButtonsPNG new closeButtonIcon ) glow: (ChrButtonsPNG new closeButtonGlowIcon )  at: -2@100  owner: self.
 		stopwatchButton := ChrStopwatchButM create: (ChrButtonsPNG new stopwatchButtonIcon  ) glow: (ChrButtonsPNG new stopwatchButtonGlowIcon )  at: -4@135  owner: self.
 		minimiseButton := ChrMinimiseButtonM create: (buttonsPNG minimiseButtonIcon ) glow: (buttonsPNG  minimiseButtonGlowIcon )  at: 10@68 owner:self. 
-		collapseButton := ChrCollapseSecondaryPanelButtonM create: (buttonsPNG collapseSecondaryPanelIcon ) glow: (buttonsPNG collapseSecondaryPanelGlowIcon )  at: 120@267  owner:self. 
+		collapseButton := ChrCollapseSecondaryPanelButtonM create: (buttonsPNG collapseSecondaryPanelIcon ) glow: (buttonsPNG collapseSecondaryPanelGlowIcon )  at: 110@265  owner:self. 
 		
 
 		stopwatchPlayButton position: 0@170.
