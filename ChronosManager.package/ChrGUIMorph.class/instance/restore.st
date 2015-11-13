@@ -1,3 +1,3 @@
 as yet unclassified
 restore
-isMinimized ifTrue: [ self show . self activate] 
+isMinimized ifTrue: [ self maximize.  self activate. ] ifFalse: [ self minimise ]

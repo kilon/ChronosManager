@@ -1,3 +1,3 @@
 as yet unclassified
 minimize
-isMinimized ifTrue: [ self hide . self isActive: false. isCollapsed := true] 
+isMinimized ifFalse: [ self hide . self isActive: false. isCollapsed := true.isMinimized := true. self announce: WindowCollapsed  new] 

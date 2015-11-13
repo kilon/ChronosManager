@@ -20,7 +20,8 @@
 		"isMinimized",
 		"buttonsPNG",
 		"minimiseButton",
-		"isCollapsed" ],
+		"isCollapsed",
+		"announcer" ],
 	"name" : "ChrGUIMorph",
 	"pools" : [
 		 ],

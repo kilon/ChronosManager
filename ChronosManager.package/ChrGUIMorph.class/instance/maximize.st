@@ -1,3 +1,3 @@
 as yet unclassified
 maximize 
-isMinimized ifFalse: [ self show ] 
+isMinimized ifTrue: [ self show. isMinimized := false. isCollapsed := false .self announce: WindowExpanded new] 
