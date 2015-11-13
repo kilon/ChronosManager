@@ -5,8 +5,8 @@ taskbarButtonClicked
 	If active then minimize.
 	Otherwise make active."
 
-	"self isMinimized
+	self isMinimized
 		ifTrue: [self restore]
 		ifFalse: [self isActive
 					ifTrue: [self minimize]
-					ifFalse: [self activate]]"
+					ifFalse: [self isActive: true]]

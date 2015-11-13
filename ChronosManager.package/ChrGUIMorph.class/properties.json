@@ -19,7 +19,8 @@
 		"isActive",
 		"isMinimized",
 		"buttonsPNG",
-		"minimiseButton" ],
+		"minimiseButton",
+		"isCollapsed" ],
 	"name" : "ChrGUIMorph",
 	"pools" : [
 		 ],
