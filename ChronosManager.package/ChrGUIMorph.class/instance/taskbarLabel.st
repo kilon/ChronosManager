@@ -1,3 +1,3 @@
 as yet unclassified
 taskbarLabel
-^'ChronosManager'
+^timeStr contents asString 
