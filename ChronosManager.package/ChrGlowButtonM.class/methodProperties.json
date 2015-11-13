@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"create:glow:at:owner:" : "kilonAlios 11/13/2015 14:45" },
+	"instance" : {
+		"glowForm" : "kilonAlios 11/13/2015 14:11",
+		"glowForm:" : "kilonAlios 11/13/2015 14:11",
+		"handlesMouseDown:" : "kilonAlios 11/13/2015 14:10",
+		"handlesMouseEnter:" : "kilonAlios 11/13/2015 14:10",
+		"handlesMouseLeave:" : "kilonAlios 11/13/2015 14:10",
+		"handlesMouseOver:" : "kilonAlios 11/13/2015 14:10",
+		"initialize" : "kilonAlios 11/13/2015 14:10",
+		"mouseEnter:" : "kilonAlios 11/13/2015 14:13",
+		"mouseLeave:" : "kilonAlios 11/13/2015 14:13",
+		"standardForm" : "kilonAlios 11/13/2015 14:10",
+		"standardForm:" : "kilonAlios 11/13/2015 14:10" } }

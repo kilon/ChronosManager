@@ -15,7 +15,11 @@
 		"stopwatchButton",
 		"stopwatchPlayButton",
 		"isStopwatchEnabled",
-		"stopwatchSecondaryPanel" ],
+		"stopwatchSecondaryPanel",
+		"isActive",
+		"isMinimized",
+		"buttonsPNG",
+		"minimiseButton" ],
 	"name" : "ChrGUIMorph",
 	"pools" : [
 		 ],

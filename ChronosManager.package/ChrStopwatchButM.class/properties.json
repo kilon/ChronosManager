@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "kilonAlios 11/1/2015 14:18",
 	"instvars" : [
-		"glowForm",
-		"standardForm" ],
+		 ],
 	"name" : "ChrStopwatchButM",
 	"pools" : [
 		 ],
-	"super" : "ImageMorph",
+	"super" : "ChrGlowButtonM",
 	"type" : "normal" }

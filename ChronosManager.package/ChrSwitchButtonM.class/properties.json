@@ -13,7 +13,7 @@
 		"action",
 		"standardForm",
 		"glowForm" ],
-	"name" : "ChrButtonM",
+	"name" : "ChrSwitchButtonM",
 	"pools" : [
 		 ],
 	"super" : "ImageMorph",

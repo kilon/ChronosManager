@@ -1,3 +1,3 @@
 as yet unclassified
-isActive
-^isActive
+glowForm
+^glowForm

@@ -1,7 +1,7 @@
 as yet unclassified
 prepareTimerButton
 	| sf |
-	timerButton := ChrButtonM createWithAction: [ timerButton owner timerToggle ].
+	timerButton := ChrSwitchButtonM createWithAction: [ timerButton owner timerToggle ].
 	sf := ChrStopwatchSettingsPNG new timerButtonIcon.
 	timerButton standardForm: (sf flipBy: #horizontal centerAt: sf center).
 	sf := ChrStopwatchSettingsPNG new timerButtonGlowIcon.

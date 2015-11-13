@@ -1,3 +1,3 @@
 as yet unclassified
 mouseLeave: evt
-	self owner isStopwatchEnabled ifFalse:[ self form: ChrButtonsPNG new stopwatchButtonIcon ]
+	self owner isStopwatchEnabled ifFalse:[ self form: standardForm  ]

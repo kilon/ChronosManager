@@ -2,10 +2,8 @@ as yet unclassified
 taskbarState
 	"Answer one of #minimized, #restored, #maximized or #active."
 
-	^#maximised "self isMinimized
+	^self isMinimized
 		ifTrue: [#minimized]
-		ifFalse: [self isMaximized
-			ifTrue: [#maximized]
-			ifFalse: [self isActive
+		ifFalse: [self isActive
 						ifTrue: [#active]
-						ifFalse: [#restored]]]"
+						ifFalse: [#restored]]

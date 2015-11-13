@@ -1,6 +1,6 @@
 as yet unclassified
 prepareStopwatchButton
-	stopwatchButton := ChrButtonM createWithAction: [ stopwatchButton owner stopwatchToggle ].
+	stopwatchButton := ChrSwitchButtonM createWithAction: [ stopwatchButton owner stopwatchToggle ].
 	stopwatchButton standardForm: ChrStopwatchSettingsPNG new timerButtonIcon.
 	stopwatchButton glowForm: ChrStopwatchSettingsPNG new timerButtonGlowIcon.
 	self addMorph: stopwatchButton.
