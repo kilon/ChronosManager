@@ -21,7 +21,9 @@
 		"buttonsPNG",
 		"minimiseButton",
 		"isCollapsed",
-		"announcer" ],
+		"announcer",
+		"collapseButton",
+		"secondaryPanelVisible" ],
 	"name" : "ChrGUIMorph",
 	"pools" : [
 		 ],

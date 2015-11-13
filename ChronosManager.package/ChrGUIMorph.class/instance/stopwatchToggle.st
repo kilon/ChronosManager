@@ -1,3 +1,3 @@
 as yet unclassified
 stopwatchToggle
-isStopwatchEnabled ifTrue:[isStopwatchEnabled := false. stopwatchPlayButton form:(ChrButtonsPNG new stopwatchPlayButtonTransparentIcon ).  stopwatchSecondaryPanel hide] ifFalse:[isStopwatchEnabled := true. stopwatchPlayButton form:(ChrButtonsPNG new stopwatchPlayButtonIcon ).  stopwatchSecondaryPanel show]
+isStopwatchEnabled ifTrue:[isStopwatchEnabled := false. stopwatchPlayButton form:(ChrButtonsPNG new stopwatchPlayButtonTransparentIcon) . collapseButton form: (buttonsPNG collapseSecondaryPanelIcon ).  stopwatchSecondaryPanel hide. secondaryPanelVisible := false] ifFalse:[isStopwatchEnabled := true. stopwatchPlayButton form:(ChrButtonsPNG new stopwatchPlayButtonIcon ). collapseButton form: (buttonsPNG collapseSecondaryPanelGlowIcon ). stopwatchSecondaryPanel show. secondaryPanelVisible := true]
