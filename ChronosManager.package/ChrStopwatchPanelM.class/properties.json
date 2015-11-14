@@ -22,7 +22,8 @@
 		"brakelimitInput",
 		"helpLabel",
 		"goalInput",
-		"timelimitInput" ],
+		"timelimitInput",
+		"setButton" ],
 	"name" : "ChrStopwatchPanelM",
 	"pools" : [
 		 ],

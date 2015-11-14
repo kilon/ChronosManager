@@ -1,3 +1,4 @@
 as yet unclassified
 pause
-watch suspend
+watch suspend.
+watchRunning := false.

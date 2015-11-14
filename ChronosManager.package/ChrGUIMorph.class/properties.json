@@ -23,7 +23,8 @@
 		"isCollapsed",
 		"announcer",
 		"collapseButton",
-		"secondaryPanelVisible" ],
+		"secondaryPanelVisible",
+		"managerModel" ],
 	"name" : "ChrGUIMorph",
 	"pools" : [
 		 ],

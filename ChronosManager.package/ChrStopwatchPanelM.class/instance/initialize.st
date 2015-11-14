@@ -14,3 +14,5 @@ initialize
 	self prepareDailygoalLabel.
 	self prepareGoalInput .
 	self prepareHelpLabel .
+	
+	setButton := ChrSetButtonM create: (ChrButtonsPNG new setButtonIcon) glow: (ChrButtonsPNG new setButtonGlowIcon ) at: 400@180  owner: self. 

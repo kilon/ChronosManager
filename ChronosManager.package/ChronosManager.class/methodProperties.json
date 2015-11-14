@@ -5,11 +5,17 @@
 		"defaultFontPointSize:" : "kilonAlios 11/11/2015 12:29",
 		"exampleOpen" : "kilonAlios 11/2/2015 18:16",
 		"menuCommandOn:" : "kilonAlios 11/14/2015 16:31",
-		"open" : "kilonAlios 11/12/2015 12:52" },
+		"open" : "kilonAlios 11/14/2015 19:18" },
 	"instance" : {
+		"brakeLimit:" : "kilonAlios 11/14/2015 19:38",
+		"dailyGoal:" : "kilonAlios 11/14/2015 19:37",
 		"end" : "kilonAlios 10/26/2015 08:49",
 		"formatLabel:" : "kilonAlios 10/26/2015 08:50",
-		"initialize" : "kilonAlios 11/2/2015 19:19",
-		"pause" : "kilonAlios 10/26/2015 08:49",
+		"initialize" : "kilonAlios 11/14/2015 20:16",
+		"mode:" : "kilonAlios 11/14/2015 19:21",
+		"pause" : "kilonAlios 11/14/2015 20:15",
 		"restart" : "kilonAlios 10/26/2015 08:49",
-		"resume" : "kilonAlios 10/26/2015 08:48" } }
+		"resume" : "kilonAlios 10/26/2015 08:48",
+		"start" : "kilonAlios 11/14/2015 20:15",
+		"timeDisplay" : "kilonAlios 11/14/2015 20:18",
+		"timeLimit:" : "kilonAlios 11/14/2015 19:37" } }

@@ -10,7 +10,12 @@
 		"label",
 		"process",
 		"window",
-		"chronosGUIMorph" ],
+		"chronosGUIMorph",
+		"mode",
+		"timeLimit",
+		"dailyGoal",
+		"brakeLimit",
+		"watchRunning" ],
 	"name" : "ChronosManager",
 	"pools" : [
 		 ],
