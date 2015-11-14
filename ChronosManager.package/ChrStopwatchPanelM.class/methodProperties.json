@@ -2,6 +2,8 @@
 	"class" : {
 		"generatePNGIcons" : "kilonAlios 11/6/2015 14:46" },
 	"instance" : {
+		"brakelimitInput" : "kilonAlios 11/14/2015 23:05",
+		"goalInput" : "kilonAlios 11/14/2015 23:06",
 		"helpLabel" : "kilonAlios 11/14/2015 17:17",
 		"initialize" : "kilonAlios 11/14/2015 19:08",
 		"isStopwatchEnabled" : "kilonAlios 11/14/2015 19:23",
@@ -18,4 +20,5 @@
 		"prepareTimelimitLabel" : "kilonAlios 11/11/2015 18:09",
 		"prepareTimerButton" : "kilonAlios 11/14/2015 16:51",
 		"stopwatchToggle" : "kilonAlios 11/4/2015 21:14",
+		"timelimitInput" : "kilonAlios 11/14/2015 23:05",
 		"timerToggle" : "kilonAlios 11/4/2015 21:14" } }

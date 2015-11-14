@@ -1,3 +1,3 @@
 as yet unclassified
 setTimeLabel
-timeStr contents: (managerModel timeDisplay ).
+timeStr contents:  (managerModel timeDisplay ).
