@@ -12,3 +12,5 @@ initialize
 	self prepareBrakelimitLabel.
 	self prepareBrakelimitInput.
 	self prepareDailygoalLabel.
+	self prepareGoalInput .
+	self prepareHelpLabel .

@@ -10,11 +10,9 @@
 		"timerLabel",
 		"chrFont",
 		"buttonLabel",
-		"action",
-		"standardForm",
-		"glowForm" ],
+		"action" ],
 	"name" : "ChrSwitchButtonM",
 	"pools" : [
 		 ],
-	"super" : "ImageMorph",
+	"super" : "ChrGlowButtonM",
 	"type" : "normal" }

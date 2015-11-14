@@ -4,4 +4,4 @@ menuCommandOn: aBuilder
 	(aBuilder item: #'ChronosManager')
 		parent: #Ephestos;
 		action: [self open]; 
-		icon: Smalltalk ui icons smallHelpIcon
+		icon: ChrStopwatchSettingsPNG new logotinyIcon 

@@ -8,4 +8,5 @@ prepareTimerButton
 	timerButton glowForm: (sf flipBy: #horizontal centerAt: sf center).
 	self addMorph: timerButton.
 	timerButton position: 100 @ 20.
+	timerButton enable.
 	^ sf

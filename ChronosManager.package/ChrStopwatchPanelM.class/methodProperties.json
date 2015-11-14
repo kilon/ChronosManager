@@ -2,16 +2,19 @@
 	"class" : {
 		"generatePNGIcons" : "kilonAlios 11/6/2015 14:46" },
 	"instance" : {
-		"initialize" : "kilonAlios 11/11/2015 18:46",
+		"helpLabel" : "kilonAlios 11/14/2015 17:17",
+		"initialize" : "kilonAlios 11/14/2015 16:39",
 		"isStopwatchEnabled:" : "kilonAlios 11/2/2015 20:33",
 		"isTimerEnabled:" : "kilonAlios 11/2/2015 20:19",
 		"prepareBrakelimitInput" : "kilonAlios 11/11/2015 18:50",
 		"prepareBrakelimitLabel" : "kilonAlios 11/11/2015 18:50",
 		"prepareDailygoalLabel" : "kilonAlios 11/11/2015 18:11",
+		"prepareGoalInput" : "kilonAlios 11/14/2015 16:38",
+		"prepareHelpLabel" : "kilonAlios 11/14/2015 16:30",
 		"prepareStopwatchButton" : "kilonAlios 11/13/2015 14:09",
 		"prepareStopwatchLabel" : "kilonAlios 11/7/2015 22:54",
 		"prepareTimelimitInput" : "kilonAlios 11/11/2015 18:16",
 		"prepareTimelimitLabel" : "kilonAlios 11/11/2015 18:09",
-		"prepareTimerButton" : "kilonAlios 11/13/2015 14:09",
+		"prepareTimerButton" : "kilonAlios 11/14/2015 16:51",
 		"stopwatchToggle" : "kilonAlios 11/4/2015 21:14",
 		"timerToggle" : "kilonAlios 11/4/2015 21:14" } }

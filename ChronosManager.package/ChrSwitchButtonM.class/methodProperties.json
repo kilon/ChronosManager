@@ -1,21 +1,16 @@
 {
 	"class" : {
 		"createWithAction:" : "kilonAlios 11/4/2015 18:46",
-		"createWithLabel:action:" : "kilonAlios 11/2/2015 20:20",
-		"generatePNGIcons" : "kilonAlios 11/6/2015 14:46" },
+		"createWithLabel:action:" : "kilonAlios 11/2/2015 20:20" },
 	"instance" : {
 		"action:" : "kilonAlios 11/2/2015 20:01",
 		"addLabel:" : "kilonAlios 11/4/2015 15:07",
 		"buttonLabel" : "kilonAlios 11/2/2015 20:07",
 		"disable" : "kilonAlios 11/4/2015 18:53",
 		"enable" : "kilonAlios 11/4/2015 18:54",
-		"glowForm" : "kilonAlios 11/2/2015 20:08",
-		"glowForm:" : "kilonAlios 11/4/2015 18:50",
 		"handlesMouseDown:" : "kilonAlios 11/1/2015 18:43",
-		"handlesMouseOver:" : "kilonAlios 11/1/2015 19:26",
+		"handlesMouseOver:" : "kilonAlios 11/14/2015 16:44",
 		"initialize" : "kilonAlios 11/6/2015 14:46",
 		"isEnabled" : "kilonAlios 11/2/2015 20:03",
 		"labelSize:" : "kilonAlios 11/2/2015 20:05",
-		"mouseDown:" : "kilonAlios 11/2/2015 20:48",
-		"standardForm" : "kilonAlios 11/2/2015 20:08",
-		"standardForm:" : "kilonAlios 11/4/2015 18:49" } }
+		"mouseDown:" : "kilonAlios 11/2/2015 20:48" } }

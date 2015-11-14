@@ -1,3 +1,2 @@
 as yet unclassified
-glowForm
-^glowForm
+formatText

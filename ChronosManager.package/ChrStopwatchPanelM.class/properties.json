@@ -19,7 +19,10 @@
 		"timelimitLabel",
 		"dailygoalLabel",
 		"brakelimitLabel",
-		"brakelimitInput" ],
+		"brakelimitInput",
+		"helpLabel",
+		"goalInput",
+		"timelimitInput" ],
 	"name" : "ChrStopwatchPanelM",
 	"pools" : [
 		 ],
