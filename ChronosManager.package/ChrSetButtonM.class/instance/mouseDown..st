@@ -6,3 +6,4 @@ mouseDown: evt
 	mm timeLimit: (('0:',self owner timelimitInput contents asString )asDuration ).
 	mm brakeLimit: (('0:',self owner brakelimitInput contents asString ) asDuration ).
 	mm dailyGoal: (self owner goalInput contents asString asInteger ).
+	self owner owner managerModel restart.

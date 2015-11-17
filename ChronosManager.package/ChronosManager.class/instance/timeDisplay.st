@@ -16,10 +16,10 @@ mode = 'clock' ifTrue: [
 (mode = 'timer')  ifTrue:[
 
 "find how many tasks are complete"	
-tasksComplete := 	watch duration seconds // (timeLimit asSeconds + brakeLimit asSeconds ) . 
+tasksComplete := 	watch duration asSeconds // (timeLimit asSeconds + brakeLimit asSeconds ) . 
 
 " how many seconds remain after we remove all the tasks that are complete so we get the time of uncompleted task"
-rsecsAfterCompletedTasks	 := watch duration seconds \\ (timeLimit asSeconds + brakeLimit asSeconds) .
+rsecsAfterCompletedTasks	 := watch duration asSeconds \\ (timeLimit asSeconds + brakeLimit asSeconds) .
 
 "check to see that the ongoing task is at time limit period"
 (rsecsAfterCompletedTasks / (timeLimit asSeconds ) ) < 1 ifTrue: [   remainingTimeLimit :=  timeLimit asSeconds - rsecsAfterCompletedTasks  . 
@@ -38,8 +38,8 @@ remainingTimeLimitSeconds := ((remainingTimeLimit \\ 3600 )\\60) .
 
 "Calculations of Stopwatch ... the code is similar to timer mode"
 (mode = 'stopwatch') ifTrue:[
-tasksComplete := 	watch duration seconds // (timeLimit asSeconds + brakeLimit asSeconds ) .
-rsecsAfterCompletedTasks	 := watch duration seconds \\ (timeLimit asSeconds + brakeLimit asSeconds) .
+tasksComplete := 	watch duration asSeconds // (timeLimit asSeconds + brakeLimit asSeconds ) .
+rsecsAfterCompletedTasks	 := watch duration asSeconds \\ (timeLimit asSeconds + brakeLimit asSeconds) .
 
 (rsecsAfterCompletedTasks / (timeLimit asSeconds ) ) < 1 ifTrue: [   
 remainingTimeLimit :=  rsecsAfterCompletedTasks   . 
