@@ -6,5 +6,6 @@ prepareBrakelimitInput
 	brakelimitInput borderColor: Color cyan.
 	brakelimitInput width: 60.
 	brakelimitInput contents: '00:10:00'.
+	brakelimitInput color: Color white.
 	self addMorph: brakelimitInput.
 	brakelimitInput position: 120 @ 140

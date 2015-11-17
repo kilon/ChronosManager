@@ -7,4 +7,5 @@ prepareGoalInput
 	goalInput width: 60.
 	goalInput contents: '8'.
 	self addMorph: goalInput.
+	goalInput  color: Color white.
 	goalInput position: 120 @ 190
