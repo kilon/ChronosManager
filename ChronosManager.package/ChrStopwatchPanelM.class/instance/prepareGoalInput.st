@@ -5,5 +5,6 @@ prepareGoalInput
 	goalInput borderWidth: 2.
 	goalInput borderColor: Color cyan.
 	goalInput width: 60.
+	goalInput contents: '8'.
 	self addMorph: goalInput.
 	goalInput position: 120 @ 190

@@ -1,1 +1,1 @@
-This is the main class that managed all the logic of Chronos Manager
+This is the main class that manages all the logic of Chronos Manager. 

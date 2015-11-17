@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"ChronosInstance" ],
-	"commentStamp" : "kilonAlios 11/1/2015 14:17",
+	"commentStamp" : "kilonAlios 11/17/2015 11:36",
 	"instvars" : [
 		"watch",
 		"label",

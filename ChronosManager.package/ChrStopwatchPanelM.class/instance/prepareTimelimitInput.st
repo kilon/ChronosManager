@@ -6,4 +6,5 @@ prepareTimelimitInput
 	timelimitInput borderColor: Color cyan.
 	timelimitInput width: 60.
 	self addMorph: timelimitInput.
+	timelimitInput contents: '00:50:00'.
 	timelimitInput position: 120 @ 85

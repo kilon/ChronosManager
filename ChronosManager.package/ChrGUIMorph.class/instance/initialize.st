@@ -10,6 +10,7 @@ initialize
 	timeStr := StringMorph new.
 	timeStr color: Color white.
 	
+	
 DateAndTime current second.
 	isStopwatchEnabled := false.
 	secondaryPanelVisible := false.

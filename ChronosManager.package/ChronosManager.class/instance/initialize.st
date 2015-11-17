@@ -7,7 +7,7 @@ initialize
 	
 	timeLimit := '0:00:50:00' asDuration .
 	brakeLimit := '0:00:10:00' asDuration .
-	dailyGoal := 6.
+	dailyGoal := 8.
 	
 	chronosGUIMorph := ChrGUIMorph new .
    chronosGUIMorph managerModel: self.
