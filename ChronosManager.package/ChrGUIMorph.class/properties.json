@@ -28,5 +28,5 @@
 	"name" : "ChrGUIMorph",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "ImageMorph",
 	"type" : "normal" }
