@@ -12,20 +12,24 @@ mode = 'clock' ifTrue: [
 	 ].
 
 ((mode = 'timer') & (watchRunning=true)) ifTrue:[
-	self halt.
+
 	
-tasksComplete := 	watch duration seconds / (timeLimit asSeconds + brakeLimit asSeconds )*1.0.
-rsecsAfterCompletedTasks	 := watch duration seconds \\ (timeLimit asSeconds + brakeLimit asSeconds)*1.0.
+tasksComplete := 	watch duration seconds // (timeLimit asSeconds + brakeLimit asSeconds ) .
+rsecsAfterCompletedTasks	 := watch duration seconds \\ (timeLimit asSeconds + brakeLimit asSeconds) .
 
-(rsecsAfterCompletedTasks / (timeLimit asSeconds ) )asInteger < 1 ifTrue: [   remainingTimeLimit := (rsecsAfterCompletedTasks \\ (timeLimit asSeconds ) )asInteger . 
-remainingTimeLimitHours := remainingTimeLimit / 3600 asInteger .
-remainingTimeLimitMinutes := (remainingTimeLimit \\ 3600 )/60 asInteger.
-remainingTimeLimitSeconds := ((remainingTimeLimit \\ 3600 )\\60) asInteger.
-^ remainingTimeLimitHours asString,':', remainingTimeLimitMinutes asString, ':' , remainingTimeLimitSeconds asString ] 
-		
-	] ifFalse: [  ].
+(rsecsAfterCompletedTasks / (timeLimit asSeconds ) ) < 1 ifTrue: [   remainingTimeLimit :=  timeLimit asSeconds - rsecsAfterCompletedTasks  . 
+remainingTimeLimitHours := remainingTimeLimit // 3600  .
+remainingTimeLimitMinutes := (remainingTimeLimit \\ 3600 )//60 .
+remainingTimeLimitSeconds := ((remainingTimeLimit \\ 3600 )\\60).
+^ remainingTimeLimitHours asString,':', remainingTimeLimitMinutes asString, ':' , remainingTimeLimitSeconds asString ]  .
+
+(rsecsAfterCompletedTasks / (timeLimit asSeconds ) ) >= 1 ifTrue: [   remainingTimeLimit :=  brakeLimit asSeconds - (rsecsAfterCompletedTasks - timeLimit asSeconds).
+remainingTimeLimitHours := remainingTimeLimit // 3600  .
+remainingTimeLimitMinutes := (remainingTimeLimit \\ 3600 )//60 .
+remainingTimeLimitSeconds := ((remainingTimeLimit \\ 3600 )\\60) .
+^ remainingTimeLimitHours asString,':', remainingTimeLimitMinutes asString, ':' , remainingTimeLimitSeconds asString ]  ] ifFalse: [^'timer off'  ].
 
 
-mode = 'stopwatch' & (watchRunning) ifTrue:[]. 
+mode = 'stopwatch' & (watchRunning) ifTrue:[] ifFalse: [^'stopwatch off']. 
 
 ^'undefined'
