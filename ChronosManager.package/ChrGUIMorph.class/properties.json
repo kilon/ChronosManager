@@ -24,7 +24,8 @@
 		"announcer",
 		"collapseButton",
 		"secondaryPanelVisible",
-		"managerModel" ],
+		"managerModel",
+		"goalStr" ],
 	"name" : "ChrGUIMorph",
 	"pools" : [
 		 ],
