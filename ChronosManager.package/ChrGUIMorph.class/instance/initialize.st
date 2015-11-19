@@ -51,5 +51,6 @@ initialize
 	stopwatchSecondaryPanel position: 0 @ 300.
 	timeStr font: (ChronosManager defaultFontPointSize: 20).
 	goalStr font: (ChronosManager defaultFontPointSize: 20).
+	goalStr color: Color white.
 	self color: (self color alpha: 0).
 	self startStepping
