@@ -15,7 +15,9 @@
 		"timeLimit",
 		"dailyGoal",
 		"brakeLimit",
-		"watchRunning" ],
+		"watchRunning",
+		"phase",
+		"tasksComplete" ],
 	"name" : "ChronosManager",
 	"pools" : [
 		 ],

@@ -24,9 +24,10 @@
 		"announcer",
 		"collapseButton",
 		"secondaryPanelVisible",
-		"managerModel" ],
+		"managerModel",
+		"goalStr" ],
 	"name" : "ChrGUIMorph",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "ImageMorph",
 	"type" : "normal" }
