@@ -43,7 +43,10 @@ timeDisplay
 			"check that the ongoing task is at brake limit period "
 			rsecsAfterCompletedTasks / timeLimit asSeconds >= 1
 				ifTrue:
-					[ rsecsAfterCompletedTasks  /timeLimit asSeconds  = 1 ifTrue: [ChronosManager alarmSound ].
+					[ rsecsAfterCompletedTasks - timeLimit asSeconds = 0
+						| (rsecsAfterCompletedTasks - (timeLimit asSeconds + brakeLimit asSeconds) = -1)
+						ifTrue: [ ChronosManager alarmSound.
+							1 asSeconds wait ].
 					phase := 'break'.
 					remainingTimeLimit := brakeLimit asSeconds
 						- (rsecsAfterCompletedTasks - timeLimit asSeconds).
