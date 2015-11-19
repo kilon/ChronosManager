@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"alarmSound" : "kilonAlios 11/19/2015 15:40",
 		"chronosInstance" : "kilonAlios 11/1/2015 14:15",
 		"defaultFont" : "kilonAlios 11/11/2015 12:30",
 		"defaultFontPointSize:" : "kilonAlios 11/11/2015 12:29",
@@ -23,7 +24,7 @@
 		"resume" : "kilonAlios 10/26/2015 08:48",
 		"start" : "kilonAlios 11/14/2015 20:15",
 		"tasksComplete" : "kilonAlios 11/18/2015 13:48",
-		"timeDisplay" : "kilonAlios 11/18/2015 13:48",
+		"timeDisplay" : "kilonAlios 11/19/2015 15:45",
 		"timeLimit" : "kilonAlios 11/17/2015 12:15",
 		"timeLimit:" : "kilonAlios 11/17/2015 08:11",
 		"watchRunning" : "kilonAlios 11/14/2015 23:10" } }

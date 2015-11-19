@@ -2,7 +2,7 @@ as yet unclassified
 timeDisplay
 	"here we do all the calculations for timer and stopwatch"
 
-	| time  rsecsAfterCompletedTasks remainingTimeLimit remainingTimeLimitHours remainingTimeLimitMinutes remainingTimeLimitSeconds hour minute second |
+	| time rsecsAfterCompletedTasks remainingTimeLimit remainingTimeLimitHours remainingTimeLimitMinutes remainingTimeLimitSeconds hour minute second |
 	time := DateAndTime current.	" get current time for clock mode"
 	mode = 'clock'
 		ifTrue:
@@ -43,7 +43,8 @@ timeDisplay
 			"check that the ongoing task is at brake limit period "
 			rsecsAfterCompletedTasks / timeLimit asSeconds >= 1
 				ifTrue:
-					[ phase := 'break'.
+					[ rsecsAfterCompletedTasks  /timeLimit asSeconds  = 1 ifTrue: [ChronosManager alarmSound ].
+					phase := 'break'.
 					remainingTimeLimit := brakeLimit asSeconds
 						- (rsecsAfterCompletedTasks - timeLimit asSeconds).
 					remainingTimeLimitHours := remainingTimeLimit // 3600.
