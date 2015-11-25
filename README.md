@@ -15,7 +15,7 @@ v0.2 (not yet released)
 
 
 
-v0.1 ( released)
+v0.1 ( released)  17-11-2015
 ----------
 
 * Stopwatch timer
