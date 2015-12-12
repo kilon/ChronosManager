@@ -1,7 +1,8 @@
 {
 	"category" : "ChronosManager",
 	"classinstvars" : [
-		 ],
+		"soundPath",
+		"alarmSound" ],
 	"classvars" : [
 		"ChronosInstance" ],
 	"commentStamp" : "kilonAlios 11/17/2015 11:36",

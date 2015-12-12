@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"alarmSound" : "kilonAlios 12/4/2015 09:23",
 		"chronosInstance" : "kilonAlios 11/1/2015 14:15",
 		"defaultFont" : "kilonAlios 11/11/2015 12:30",
 		"defaultFontPointSize:" : "kilonAlios 12/4/2015 09:25",
 		"exampleOpen" : "kilonAlios 11/2/2015 18:16",
 		"menuCommandOn:" : "kilonAlios 11/14/2015 16:31",
-		"open" : "kilonAlios 11/14/2015 19:18" },
+		"open" : "kilonAlios 11/14/2015 19:18",
+		"playAlarmSound" : "kilonAlios 12/12/2015 12:05" },
 	"instance" : {
 		"brakeLimit" : "kilonAlios 11/17/2015 12:14",
 		"brakeLimit:" : "kilonAlios 11/17/2015 08:11",
@@ -23,7 +23,7 @@
 		"restart" : "kilonAlios 11/20/2015 10:58",
 		"start" : "kilonAlios 11/14/2015 20:15",
 		"tasksComplete" : "kilonAlios 11/18/2015 13:48",
-		"timeDisplay" : "kilonAlios 11/20/2015 10:58",
+		"timeDisplay" : "kilonAlios 12/12/2015 12:05",
 		"timeLimit" : "kilonAlios 11/17/2015 12:15",
 		"timeLimit:" : "kilonAlios 11/17/2015 08:11",
 		"watchRunning" : "kilonAlios 11/14/2015 23:10" } }

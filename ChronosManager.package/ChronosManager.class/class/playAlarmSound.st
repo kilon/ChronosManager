@@ -1,9 +1,12 @@
 as yet unclassified
-alarmSound
-|wd master soundPath|
+playAlarmSound
+|wd master|
+soundPath ifNil: [  
 wd := FileSystem disk workingDirectory .
 master := wd / 'github-cache/kilon/ChronosManager/master'.
 soundPath := (master allDirectories  at: 2)/'audio/alarm1.wav'.
 soundPath:=(soundPath asString  substrings:'@') at: 2.
-soundPath := soundPath trimLeft.
-^(SampledSound fromWaveFileNamed: soundPath ) play
+soundPath := soundPath trimLeft].
+alarmSound ifNil: [ alarmSound :=  (SampledSound fromWaveFileNamed: soundPath )].
+SoundPlayer startUp.
+alarmSound play
