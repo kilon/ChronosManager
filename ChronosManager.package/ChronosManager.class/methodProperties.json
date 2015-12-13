@@ -1,12 +1,15 @@
 {
 	"class" : {
 		"chronosInstance" : "kilonAlios 11/1/2015 14:15",
+		"currentVersion" : "kilonAlios 12/13/2015 16:02",
 		"defaultFont" : "kilonAlios 11/11/2015 12:30",
 		"defaultFontPointSize:" : "kilonAlios 12/4/2015 09:25",
 		"exampleOpen" : "kilonAlios 11/2/2015 18:16",
+		"latestVersion" : "kilonAlios 12/13/2015 15:59",
 		"menuCommandOn:" : "kilonAlios 11/14/2015 16:31",
 		"open" : "kilonAlios 11/14/2015 19:18",
-		"playAlarmSound" : "kilonAlios 12/12/2015 12:05" },
+		"playAlarmSound" : "kilonAlios 12/12/2015 12:05",
+		"updateToLatestVersion" : "kilonAlios 12/13/2015 16:05" },
 	"instance" : {
 		"brakeLimit" : "kilonAlios 11/17/2015 12:14",
 		"brakeLimit:" : "kilonAlios 11/17/2015 08:11",
