@@ -8,6 +8,7 @@ x (not yet released)
 * timer auto-pauses at the end of work and break periods
 * custom alarm sound played at the end of work and break periods
 * display the amount of tasks complete vs daily goal
+* auto update if a new release is available each time the alarm sounds
 
 
 
