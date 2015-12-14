@@ -5,26 +5,5 @@ ChronosManager is a tool for managing time part of the Ephestos project. Its goa
 ![Screenshot](https://github.com/kilon/ChronosManager/blob/master/screenshot2.jpg)
 
 
-v0.2 (not yet released)
-----------
-
-* timer turns green for work , red for break
-* timer auto-pauses at the end of work and break periods
-* custom alarm sound played at the end of work and break periods
-* display the amount of tasks complete vs daily goal
-
-
-
-v0.1 ( released)  17-11-2015
-----------
-
-* Stopwatch timer
-* Settings panel
-* Work time and break time periods
-* seconds and minutes indication panel
-* help bar
-* minimize button
-* close button
-* taskbar button with timer infor
-* time limit / break limit / daily goal inputs with autoformat HH:MM:SS
-* resize the GUI using halos
+See RELEASENOTES.md for details on what has been added in each release and what
+new features I am working on :)
