@@ -2,5 +2,5 @@ as yet unclassified
 updateToLatestVersion
 (self currentVersion = self latestVersion ) ifFalse: [ Metacello new
     baseline: 'ChronosManager';
-    repository: 'github://kilon/ChronosManager';
+    repository: 'github://kilon/ChronosManager'; get;
     load ]
