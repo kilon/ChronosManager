@@ -46,7 +46,7 @@ timeDisplay
 					[ rsecsAfterCompletedTasks - timeLimit asSeconds = 0
 						| (rsecsAfterCompletedTasks - (timeLimit asSeconds + brakeLimit asSeconds) = -1)
 						ifTrue: [ ChronosManager playAlarmSound.
-							1 asSeconds wait. self pause ].
+							1 asSeconds wait. self pause. [self class updateToLatestVersion] fork   ].
 					phase := 'break'.
 					remainingTimeLimit := brakeLimit asSeconds
 						- (rsecsAfterCompletedTasks - timeLimit asSeconds).

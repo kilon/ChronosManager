@@ -6,4 +6,4 @@ isGithubConnected
 		get: 'https://github.com';
 		isSuccess ]
 		on: Error
-		do: [ self notify:'Cannot connect to Github'.false ]
+		do: [ false ]
