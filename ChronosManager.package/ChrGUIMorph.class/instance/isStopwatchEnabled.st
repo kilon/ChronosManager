@@ -1,3 +1,3 @@
-as yet unclassified
+button state
 isStopwatchEnabled
 ^isStopwatchEnabled 

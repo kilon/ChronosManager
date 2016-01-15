@@ -1,4 +1,4 @@
-as yet unclassified
+taskbar
 taskbarTask
 	(self valueOfProperty: #noTaskbarTask ifAbsent: [ false ])
 		ifTrue: [ ^ nil ].

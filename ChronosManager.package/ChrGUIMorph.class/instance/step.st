@@ -1,4 +1,4 @@
-as yet unclassified
+animating
 step
 	|iconMethod   |
 	super step.

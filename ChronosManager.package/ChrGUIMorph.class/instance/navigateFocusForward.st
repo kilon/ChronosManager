@@ -1,4 +1,4 @@
-as yet unclassified
+taskbar
 navigateFocusForward
 	"Change the keyboard focus to the next morph or the receiver
 	in none are interested."

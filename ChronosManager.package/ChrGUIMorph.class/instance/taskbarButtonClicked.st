@@ -1,4 +1,4 @@
-as yet unclassified
+taskbar
 taskbarButtonClicked
 	"The taskbar button for the receiver has been clicked.
 	If minimised then restore.

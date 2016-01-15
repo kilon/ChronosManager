@@ -1,1 +1,1 @@
-This is the circular display morph with all basic buttons 
+This is the circular display morph with all basic buttons , it acts as the central Morph handling both events, buttons and taskbar functionality. 

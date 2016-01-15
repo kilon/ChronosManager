@@ -1,4 +1,4 @@
-as yet unclassified
+taskbar
 taskThumbnailOfSize: thumbExtent
 	"Answer a new task thumbnail for the receiver."
 

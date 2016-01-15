@@ -1,4 +1,4 @@
-as yet unclassified
+taskbar
 taskbarState
 	"Answer one of #minimized, #restored, #maximized or #active."
 

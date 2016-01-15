@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "kilonAlios 11/1/2015 14:16",
+	"commentStamp" : "kilonAlios 1/15/2016 17:58",
 	"instvars" : [
 		"time",
 		"timeStr",
@@ -25,7 +25,8 @@
 		"collapseButton",
 		"secondaryPanelVisible",
 		"managerModel",
-		"goalStr" ],
+		"goalStr",
+		"secondsTimerFormCollection" ],
 	"name" : "ChrGUIMorph",
 	"pools" : [
 		 ],

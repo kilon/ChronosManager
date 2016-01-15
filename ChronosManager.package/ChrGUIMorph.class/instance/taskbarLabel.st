@@ -1,3 +1,3 @@
-as yet unclassified
+taskbar
 taskbarLabel
 ^timeStr contents asString 

@@ -1,8 +1,7 @@
-as yet unclassified
+initialization
 initialize
 	super initialize.
-	"eyeDisplay := ImageMorph withForm: ChrIcons  new GUIPanelIcon ."
-	self form: ChrIcons new GUIPanelIcon.
+	self form: self centralGUIform .
 	isActive := true.
 	isMinimized := false.
 	isCollapsed := false.
@@ -14,7 +13,7 @@ initialize
 	DateAndTime current second.
 	isStopwatchEnabled := false.
 	secondaryPanelVisible := false.
-	secondsTimer := ImageMorph withForm: ChrIcons new secondsTimer0000Icon.
+	secondsTimer := ImageMorph withForm: (self secondsTimerForm at:1).
 	stopwatchButton := ChrStopwatchButM new.
 	stopwatchPlayButton := ChrStopwatchPlayButM new.
 	stopwatchSecondaryPanel := ChrStopwatchPanelM new.

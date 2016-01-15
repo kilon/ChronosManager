@@ -1,4 +1,4 @@
-as yet unclassified
+state tracking
 stopwatchToggle
 isStopwatchEnabled ifTrue:[isStopwatchEnabled := false. 
 								  managerModel mode: 'clock'.

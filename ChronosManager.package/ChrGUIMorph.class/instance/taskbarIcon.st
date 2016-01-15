@@ -1,3 +1,3 @@
-as yet unclassified
+taskbar
 taskbarIcon
 ^ChrStopwatchSettingsPNG new logotinyIcon 
