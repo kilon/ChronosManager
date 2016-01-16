@@ -4,7 +4,8 @@
 		"soundPath",
 		"alarmSound" ],
 	"classvars" : [
-		"ChronosInstance" ],
+		"ChronosInstance",
+		"WorkingPath" ],
 	"commentStamp" : "kilonAlios 11/17/2015 11:36",
 	"instvars" : [
 		"watch",

@@ -13,6 +13,6 @@ step
 			self managerModel phase = 'break'
 				ifTrue: [ timeStr color: Color red ] ].
 	secondsTimer form: (self secondsTimerForm at: time seconds + 1).
-	self setTimeLabel
+	self setTimeLabel.
+	World submorphs do: [ :each| (each isKindOf: TaskbarMorph) ifTrue: [each  updateTaskButtons]]
 
-	
