@@ -1,0 +1,1 @@
+This class is a simple image morph that has two forms, one standard form which is a standard png image and one glow form that is the same image with added glow in it. It also implements a helpText facility to alert a help status moph about its use
