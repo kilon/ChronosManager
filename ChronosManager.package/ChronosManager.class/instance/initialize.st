@@ -4,10 +4,10 @@ initialize
 	watch := Stopwatch new.
 	mode := 'clock'.
 	watchRunning := false.
-	timeLimit := '0:00:45:00' asDuration.
-	brakeLimit := '0:00:15:00' asDuration.
+	timeLimit := ChronosManager defaultTimeLimit.
+	brakeLimit := ChronosManager defaultBrakeLimit .
 	tasksComplete := 0.
-	dailyGoal := 8.
+	dailyGoal := ChronosManager defaultDailyGoal .
 	chronosGUIMorph := ChrGUIMorph new.
 	chronosGUIMorph managerModel: self.
 	chronosGUIMorph setTimeLabel.

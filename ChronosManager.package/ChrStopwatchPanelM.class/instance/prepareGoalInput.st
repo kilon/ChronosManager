@@ -5,7 +5,7 @@ prepareGoalInput
 	goalInput borderWidth: 2.
 	goalInput borderColor: Color cyan.
 	goalInput width: 60.
-	goalInput contents: '8'.
+	goalInput contents: ChronosManager defaultDailyGoal asString .
 	self addMorph: goalInput.
 	goalInput  color: Color white.
 	goalInput position: 120 @ 190

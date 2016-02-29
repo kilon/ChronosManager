@@ -6,6 +6,6 @@ prepareTimelimitInput
 	timelimitInput borderColor: Color cyan.
 	timelimitInput width: 60.
 	self addMorph: timelimitInput.
-	timelimitInput contents: '00:45:00' .
+	timelimitInput contents: (ChronosManager defaultTimeLimit asString copyFrom: 3 to: 10).
 	timelimitInput position: 120 @ 85.
 	timelimitInput color: Color white.

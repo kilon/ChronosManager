@@ -1,0 +1,1 @@
+Secondary panel for setting the pomodoro timer

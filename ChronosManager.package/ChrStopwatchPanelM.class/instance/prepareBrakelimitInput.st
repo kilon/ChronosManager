@@ -5,7 +5,7 @@ prepareBrakelimitInput
 	brakelimitInput borderWidth: 2.
 	brakelimitInput borderColor: Color cyan.
 	brakelimitInput width: 60.
-	brakelimitInput contents: '00:15:00'.
+	brakelimitInput contents: (ChronosManager defaultBrakeLimit asString copyFrom: 3 to: 10) .
 	brakelimitInput color: Color white .
 	self addMorph: brakelimitInput.
 	brakelimitInput position: 120 @ 140
