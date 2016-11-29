@@ -6,7 +6,7 @@ baseline: spec
 		do:
 			[ 
 			spec
-				baseline: 'Sound' with: [ spec repository: 'http://smalltalkhub.com/mc/PharoExtras/Sound/main' ];
+				baseline: 'Sound' with: [ spec repository: 'http://smalltalkhub.com/mc/PharoExtras/Sound' ];
 				import: 'Sound' provides: #('default').
 				spec package: 'ChronosManager'	with: [ spec requires: 'default' ]
 					
