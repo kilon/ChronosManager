@@ -1,24 +1,27 @@
 {
-	"class" : {
-		"generatePNGIcons" : "kilonAlios 11/6/2015 14:46" },
 	"instance" : {
-		"brakelimitInput" : "kilonAlios 11/14/2015 23:05",
-		"goalInput" : "kilonAlios 11/14/2015 23:06",
-		"helpLabel" : "kilonAlios 11/14/2015 17:17",
-		"initialize" : "kilonAlios 11/14/2015 19:08",
 		"isStopwatchEnabled" : "kilonAlios 11/14/2015 19:23",
-		"isStopwatchEnabled:" : "kilonAlios 11/2/2015 20:33",
-		"isTimerEnabled:" : "kilonAlios 11/2/2015 20:19",
-		"prepareBrakelimitInput" : "dimitrisChloupis 2/29/2016 19:51",
-		"prepareBrakelimitLabel" : "kilonAlios 11/17/2015 15:01",
-		"prepareDailygoalLabel" : "kilonAlios 11/17/2015 14:56",
-		"prepareGoalInput" : "dimitrisChloupis 2/29/2016 19:51",
-		"prepareHelpLabel" : "kilonAlios 11/14/2015 16:30",
-		"prepareStopwatchButton" : "kilonAlios 11/13/2015 14:09",
-		"prepareStopwatchLabel" : "kilonAlios 11/7/2015 22:54",
-		"prepareTimelimitInput" : "dimitrisChloupis 2/29/2016 19:50",
-		"prepareTimelimitLabel" : "kilonAlios 11/11/2015 18:09",
-		"prepareTimerButton" : "kilonAlios 11/14/2015 16:51",
 		"stopwatchToggle" : "kilonAlios 11/17/2015 11:47",
+		"initialize" : "kilonAlios 11/14/2015 19:08",
+		"isTimerEnabled:" : "kilonAlios 11/2/2015 20:19",
+		"prepareTimerButton" : "kilonAlios 11/14/2015 16:51",
+		"prepareTimelimitInput" : "dimitrisChloupis 2/29/2016 19:50",
+		"prepareBrakelimitInput" : "dimitrisChloupis 2/29/2016 19:51",
+		"prepareDailygoalLabel" : "kilonAlios 11/17/2015 14:56",
+		"prepareTimelimitLabel" : "kilonAlios 11/11/2015 18:09",
+		"prepareBrakelimitLabel" : "kilonAlios 11/17/2015 15:01",
+		"timerToggle" : "kilonAlios 11/17/2015 11:53",
+		"prepareHelpLabel" : "kilonAlios 11/14/2015 16:30",
+		"brakelimitInput" : "kilonAlios 11/14/2015 23:05",
+		"prepareStopwatchButton" : "kilonAlios 11/13/2015 14:09",
+		"prepareGoalInput" : "dimitrisChloupis 2/29/2016 19:51",
+		"helpLabel" : "kilonAlios 11/14/2015 17:17",
 		"timelimitInput" : "kilonAlios 11/14/2015 23:05",
-		"timerToggle" : "kilonAlios 11/17/2015 11:53" } }
+		"isStopwatchEnabled:" : "kilonAlios 11/2/2015 20:33",
+		"prepareStopwatchLabel" : "kilonAlios 11/7/2015 22:54",
+		"goalInput" : "kilonAlios 11/14/2015 23:06"
+	},
+	"class" : {
+		"generatePNGIcons" : "kilonAlios 11/6/2015 14:46"
+	}
+}

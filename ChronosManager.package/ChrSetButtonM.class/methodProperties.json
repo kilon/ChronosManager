@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"helpText" : "kilonAlios 11/14/2015 19:08",
-		"initialize" : "kilonAlios 11/14/2015 18:59",
 		"mouseDown:" : "kilonAlios 11/17/2015 13:38",
-		"mouseEnter:" : "kilonAlios 11/14/2015 19:06",
-		"mouseLeave:" : "kilonAlios 11/14/2015 19:06" } }
+		"mouseLeave:" : "kilonAlios 11/14/2015 19:06",
+		"initialize" : "kilonAlios 11/14/2015 18:59",
+		"helpText" : "kilonAlios 11/14/2015 19:08",
+		"mouseEnter:" : "kilonAlios 11/14/2015 19:06"
+	},
+	"class" : { }
+}

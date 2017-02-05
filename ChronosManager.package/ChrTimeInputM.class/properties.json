@@ -1,14 +1,11 @@
 {
-	"category" : "ChronosManager",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "ChrTimeInputM",
-	"pools" : [
-		 ],
 	"super" : "TextMorph",
-	"type" : "normal" }
+	"category" : "ChronosManager",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ChrTimeInputM",
+	"type" : "normal"
+}

@@ -1,12 +1,17 @@
 {
+	"commentStamp" : "kilonAlios 11/17/2015 11:36",
+	"super" : "Object",
 	"category" : "ChronosManager",
 	"classinstvars" : [
 		"soundPath",
-		"alarmSound" ],
+		"alarmSound"
+	],
+	"pools" : [ ],
 	"classvars" : [
 		"ChronosInstance",
-		"WorkingPath" ],
-	"commentStamp" : "kilonAlios 11/17/2015 11:36",
+		"ChronosSingleton",
+		"WorkingPath"
+	],
 	"instvars" : [
 		"watch",
 		"label",
@@ -19,9 +24,8 @@
 		"brakeLimit",
 		"watchRunning",
 		"phase",
-		"tasksComplete" ],
+		"tasksComplete"
+	],
 	"name" : "ChronosManager",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

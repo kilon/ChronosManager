@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"formatText" : "kilonAlios 11/14/2015 16:35",
-		"initialize" : "kilonAlios 11/14/2015 16:34" } }
+		"initialize" : "kilonAlios 11/14/2015 16:34",
+		"formatText" : "kilonAlios 11/14/2015 16:35"
+	},
+	"class" : { }
+}

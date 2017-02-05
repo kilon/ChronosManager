@@ -1,18 +1,17 @@
 {
-	"category" : "ChronosManager",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "kilonAlios 11/2/2015 20:07",
+	"super" : "ChrGlowButtonM",
+	"category" : "ChronosManager",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"isButtonEnabled",
 		"timerLabel",
 		"chrFont",
 		"buttonLabel",
-		"action" ],
+		"action"
+	],
 	"name" : "ChrSwitchButtonM",
-	"pools" : [
-		 ],
-	"super" : "ChrGlowButtonM",
-	"type" : "normal" }
+	"type" : "normal"
+}

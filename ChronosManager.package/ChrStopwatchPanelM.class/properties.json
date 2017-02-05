@@ -1,10 +1,10 @@
 {
-	"category" : "ChronosManager",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "dimitrisChloupis 2/29/2016 19:31",
+	"super" : "ImageMorph",
+	"category" : "ChronosManager",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"glowForm",
 		"standardForm",
@@ -23,9 +23,8 @@
 		"helpLabel",
 		"goalInput",
 		"timelimitInput",
-		"setButton" ],
+		"setButton"
+	],
 	"name" : "ChrStopwatchPanelM",
-	"pools" : [
-		 ],
-	"super" : "ImageMorph",
-	"type" : "normal" }
+	"type" : "normal"
+}

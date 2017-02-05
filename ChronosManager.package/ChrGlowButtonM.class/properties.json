@@ -1,15 +1,14 @@
 {
-	"category" : "ChronosManager",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "DimitrisChloupis 2/26/2016 15:55",
+	"super" : "ImageMorph",
+	"category" : "ChronosManager",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"glowForm",
-		"standardForm" ],
+		"standardForm"
+	],
 	"name" : "ChrGlowButtonM",
-	"pools" : [
-		 ],
-	"super" : "ImageMorph",
-	"type" : "normal" }
+	"type" : "normal"
+}

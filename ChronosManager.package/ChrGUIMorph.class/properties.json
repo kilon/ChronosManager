@@ -1,10 +1,10 @@
 {
-	"category" : "ChronosManager",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "kilonAlios 1/15/2016 17:58",
+	"super" : "ImageMorph",
+	"category" : "ChronosManager",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"time",
 		"timeStr",
@@ -27,9 +27,8 @@
 		"managerModel",
 		"goalStr",
 		"secondsTimerFormCollection",
-		"myTask" ],
+		"myTask"
+	],
 	"name" : "ChrGUIMorph",
-	"pools" : [
-		 ],
-	"super" : "ImageMorph",
-	"type" : "normal" }
+	"type" : "normal"
+}

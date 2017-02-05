@@ -1,4 +1,5 @@
-as yet unclassified
+instance creation
 open
-ChronosInstance := self new.
-^ChronosInstance
+	ChronosSingleton ifNil: [ ChronosSingleton := self new ].
+	ChronosSingleton openGUI.
+	^ ChronosInstance

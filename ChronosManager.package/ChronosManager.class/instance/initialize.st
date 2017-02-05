@@ -1,14 +1,11 @@
-as yet unclassified
+initialization
 initialize
 	super initialize.
 	watch := Stopwatch new.
 	mode := 'clock'.
 	watchRunning := false.
 	timeLimit := ChronosManager defaultTimeLimit.
-	brakeLimit := ChronosManager defaultBrakeLimit .
+	brakeLimit := ChronosManager defaultBrakeLimit.
 	tasksComplete := 0.
-	dailyGoal := ChronosManager defaultDailyGoal .
-	chronosGUIMorph := ChrGUIMorph new.
-	chronosGUIMorph managerModel: self.
-	chronosGUIMorph setTimeLabel.
-	chronosGUIMorph openInWorld
+	dailyGoal := ChronosManager defaultDailyGoal.
+	self openGUI

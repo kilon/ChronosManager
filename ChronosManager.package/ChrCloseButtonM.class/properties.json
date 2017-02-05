@@ -1,14 +1,11 @@
 {
-	"category" : "ChronosManager",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "ChrCloseButtonM",
-	"pools" : [
-		 ],
 	"super" : "ChrGlowButtonM",
-	"type" : "normal" }
+	"category" : "ChronosManager",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ChrCloseButtonM",
+	"type" : "normal"
+}
