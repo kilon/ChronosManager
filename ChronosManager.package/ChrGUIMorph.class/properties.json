@@ -4,7 +4,9 @@
 	"category" : "ChronosManager",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"secondsTimerFormCollection"
+	],
 	"instvars" : [
 		"time",
 		"timeStr",
@@ -26,7 +28,6 @@
 		"secondaryPanelVisible",
 		"managerModel",
 		"goalStr",
-		"secondsTimerFormCollection",
 		"myTask"
 	],
 	"name" : "ChrGUIMorph",

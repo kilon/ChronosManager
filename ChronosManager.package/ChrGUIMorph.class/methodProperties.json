@@ -1,6 +1,6 @@
 {
 	"instance" : {
-		"secondsTimerForm" : "kilonAlios 1/15/2016 19:41",
+		"secondsTimerForm" : "kilonAlios 2/5/2017 11:15",
 		"restore" : "kilonAlios 11/13/2015 18:32",
 		"taskbarIcon" : "kilonAlios 11/13/2015 19:09",
 		"taskbarLabel" : "kilonAlios 11/13/2015 19:00",
@@ -39,9 +39,11 @@
 		"isActive" : "kilonAlios 11/13/2015 15:00"
 	},
 	"class" : {
-		"generateStopwatchSettingsPNGs" : "kilonAlios 11/13/2015 19:09",
 		"generatePNGs" : "kilonAlios 11/13/2015 15:11",
 		"generateButtonsPNGs" : "kilonAlios 11/13/2015 15:10",
-		"generateIconsPNGs" : "kilonAlios 11/13/2015 19:08"
+		"secondsTimerFormCollection" : "kilonAlios 2/5/2017 11:13",
+		"generateStopwatchSettingsPNGs" : "kilonAlios 11/13/2015 19:09",
+		"generateIconsPNGs" : "kilonAlios 11/13/2015 19:08",
+		"secondsTimerFormCollection:" : "kilonAlios 2/5/2017 11:13"
 	}
 }
