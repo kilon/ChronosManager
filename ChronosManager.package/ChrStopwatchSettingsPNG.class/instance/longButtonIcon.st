@@ -3,4 +3,4 @@ longButtonIcon
 	"Private - Generated method"
 	^icons 
 			at: #longButtonIcon
-			ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self longButtonIconContents readStream) ].
+			ifAbsentPut:[ Form fromBase64String: self longButtonIconContents ].

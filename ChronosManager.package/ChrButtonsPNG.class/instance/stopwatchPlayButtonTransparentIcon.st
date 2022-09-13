@@ -3,4 +3,4 @@ stopwatchPlayButtonTransparentIcon
 	"Private - Generated method"
 	^icons 
 			at: #stopwatchPlayButtonTransparentIcon
-			ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self stopwatchPlayButtonTransparentIconContents readStream) ].
+			ifAbsentPut:[ Form fromBase64String: self  stopwatchPlayButtonTransparentIconContents ].
