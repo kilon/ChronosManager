@@ -3,4 +3,4 @@ timerButtonIcon
 	"Private - Generated method"
 	^icons 
 			at: #timerButtonIcon
-			ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self timerButtonIconContents readStream) ].
+			ifAbsentPut:[ Form fromBase64String: self timerButtonIconContents ].

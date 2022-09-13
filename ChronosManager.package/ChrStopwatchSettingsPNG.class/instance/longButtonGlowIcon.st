@@ -3,4 +3,4 @@ longButtonGlowIcon
 	"Private - Generated method"
 	^icons 
 			at: #longButtonGlowIcon
-			ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self longButtonGlowIconContents readStream) ].
+			ifAbsentPut:[ Form fromBase64String: self longButtonGlowIconContents ].

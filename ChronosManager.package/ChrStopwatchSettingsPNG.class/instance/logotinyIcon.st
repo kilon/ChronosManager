@@ -2,5 +2,7 @@ accessing - icons
 logotinyIcon
 	"Private - Generated method"
 	^icons 
-			at: #logotinyIcon
-			ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self logotinyIconContents readStream) ].
+		at: #logotinyIcon
+		ifAbsentPut:[ Form fromBase64String: self logotinyIconContents ].
+			
+	

@@ -3,4 +3,4 @@ closeButtonGlowIcon
 	"Private - Generated method"
 	^icons 
 			at: #closeButtonGlowIcon
-			ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self closeButtonGlowIconContents readStream) ].
+			ifAbsentPut:[ Form fromBase64String: self closeButtonGlowIconContents ].

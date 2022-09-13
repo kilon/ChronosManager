@@ -3,4 +3,4 @@ setButtonGlowIcon
 	"Private - Generated method"
 	^icons 
 			at: #setButtonGlowIcon
-			ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self setButtonGlowIconContents readStream) ].
+			ifAbsentPut:[ Form fromBase64String: self setButtonGlowIconContents ].
